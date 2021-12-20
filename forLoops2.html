@@ -1,0 +1,20 @@
+<script>
+
+    var line ="";
+    var rows = 100;
+    var spaces = rows - 1;
+
+    for(var a = 0; a < rows; a++){
+
+        for(var i = 0; i < spaces; i++){
+            line += " ";
+        }
+
+        for(var b = 0; b < a+1; b++){
+            line += "* ";
+        }
+        console.log(line)
+        line = "";
+        spaces -= 1;
+    }
+</script>
