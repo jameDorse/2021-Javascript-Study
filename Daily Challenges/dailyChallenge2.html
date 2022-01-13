@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gull</title>
+    <script>
+        function show(){
+            var text = document.getElementById("button");
+            text.style.display = "block";
+        }
+        function big(){
+            var button = document.getElementById("gull");
+            button.style.width = "1000";
+        }
+    </script>
+</head>
+<body>
+<div id="button" style="display:none"><button type="button"onclick="big()">Gull</button></div>
+<img id="gull" src="pics/gull.jpg" width="500">
+<div id="text" onclick="show()"> Gull Man Gull Guy </div>
+
+</body>
+</html>
